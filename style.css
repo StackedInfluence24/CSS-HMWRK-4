@@ -1,0 +1,31 @@
+/* Color Styles */
+ 
+/* Utilize color names */
+header, footer {
+    background-color: lightpink; /* light pink */
+}
+ 
+/* Hexadecimal value */
+h1 {
+    color: #dd0917; /* red */
+}
+ 
+/* RGB value */
+nav ul li a {
+    color: rgb(65, 105, 225); /* purple blue */
+}
+ 
+/* RGBA value */
+nav ul li a:hover {
+    color: rgba(100, 92, 212, 0.8); /* purple */
+}
+ 
+/* HSL value */
+button {
+    background-color: hsl(286, 54%, 63%); /* light purple*/
+}
+ 
+/* HSLA value */
+button:hover {
+    background-color: hsla(218, 87%, 41%, 0.8); /* Indigo with alpha */
+}
